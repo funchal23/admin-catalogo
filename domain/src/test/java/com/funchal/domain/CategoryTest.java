@@ -189,4 +189,23 @@ class CategoryTest {
         Assertions.assertNotNull(aNewCategory.getUpdatedAt());
     }
 
+    @Test
+    void shouldSuccessUpdatedCategory(){
+        final var expectedName = "Terror";
+        final var expectedDescription = "best category";
+
+        final var aCategory = Category.newCategory("Action", "Must be available", true);
+
+        Assertions.assertDoesNotThrow(() -> aCategory.validate(new ThrowsValidationHandler()));
+
+        final var aNewCategory = aCategory.update(expectedName, expectedDescription);
+
+        Assertions.assertNull(aNewCategory.getDeletedAt());
+        Assertions.assertTrue(aNewCategory.isActive());
+        Assertions.assertNotNull(aNewCategory);
+        Assertions.assertEquals(aNewCategory.getName(), expectedName);
+        Assertions.assertEquals(aNewCategory.getDescription(), expectedDescription);
+        Assertions.assertNotNull(aNewCategory.getCreatedAt());
+        Assertions.assertNotNull(aNewCategory.getUpdatedAt());
+    }
 }

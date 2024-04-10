@@ -76,4 +76,12 @@ public class Category extends AggregateRoot<CategoryID> {
         updatedAt = now;
         return this;
     }
+
+    public Category update(final String expectedName, final String expectedDescription) {
+        this.name = expectedName;
+        this.description = expectedDescription;
+        this.updatedAt = Instant.now();
+        return this;
+    }
+
 }
