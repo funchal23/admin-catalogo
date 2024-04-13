@@ -1,10 +1,7 @@
 package com.funchal.application;
 
-import com.funchal.domain.category.Category;
+public abstract class UseCase<IN, OUT> {
 
-public class UseCase {
+    public abstract OUT execute(IN in);
 
-    public Category execute(){
-        return Category.newCategory("name", "description", false);
-    }
 }

@@ -1,6 +1,5 @@
-package com.funchal.domain;
+package com.funchal.domain.category;
 
-import com.funchal.domain.category.Category;
 import com.funchal.exceptions.DomainException;
 import com.funchal.validation.handler.ThrowsValidationHandler;
 import org.junit.jupiter.api.Assertions;
