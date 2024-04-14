@@ -5,6 +5,7 @@ import com.funchal.exceptions.DomainException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
@@ -17,12 +18,14 @@ import static org.mockito.ArgumentMatchers.argThat;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.when;
 
-
-@ExtendWith(MockitoExtension.class)
-class CreateCategoryUseCaseTest extends UseCaseTest<DefaultCreateCategoryUseCase> {
+class CreateCategoryUseCaseTest extends UseCaseTest{
 
     @Mock
     private CategoryGateway gateway;
+
+    @InjectMocks
+    private DefaultCreateCategoryUseCase useCase;
+
 
     // 1. Teste do caminho feliz
     // 2. Teste passando uma propriedade inválida (name)
