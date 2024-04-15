@@ -75,3 +75,6 @@ Rapplication/src/test/java/com/funchal/application/category/create/UseCaseTest.j
 `application/src/test/java/com/funchal/application/category/create/CreateCategoryUseCaseTest.java,f/0/f0a1d058c5e7ba406498354dbdb791624a29f9f3
 r
 Bdomain/src/test/java/com/funchal/domain/category/CategoryTest.java,4/a/4a5607f5bba25053db54080f077ad37ac7434bad
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302

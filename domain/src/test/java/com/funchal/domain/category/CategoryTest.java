@@ -190,7 +190,7 @@ class CategoryTest {
 
     @Test
     void shouldSuccessUpdatedCategory(){
-        final var expectedName = "Terror";
+        final var expectedName = "Action";
         final var expectedDescription = "best category";
 
         final var aCategory = Category.newCategory("Action", "Must be available", true);
