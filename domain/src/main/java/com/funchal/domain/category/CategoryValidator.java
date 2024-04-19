@@ -20,18 +20,18 @@ public class CategoryValidator extends Validator {
 
     private void checkNameConstraints() {
         final String name = this.category.getName();
-        if (name == null){
+        if (name == null) {
             this.getValidationHandler().append(new Error("message error"));
             return;
         }
 
-        if(name.isBlank()){
+        if (name.isBlank()) {
             this.getValidationHandler().append(new Error("message error"));
             return;
         }
 
         final int length = name.trim().length();
-        if (length > 255 || length < 3){
+        if (length > 255 || length < 3) {
             this.getValidationHandler().append(new Error("message error"));
         }
     }

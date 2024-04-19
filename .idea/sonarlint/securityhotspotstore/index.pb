@@ -15,12 +15,8 @@ K
 infrastructure/build.gradle,d/0/d08ad7275ca05d13cb570f6f624eee8075619a60
 q
 Ainfrastructure/src/main/java/com/funchal/infrastructure/Main.java,1/6/160c03d459bcaeabf821fff1d6397abc17ed320f
-i
-9domain/src/test/java/com/funchal/domain/CategoryTest.java,3/d/3dc169dd1a4f034f7ba1f0c4ef6ec5608b49d175
 n
 >application/src/main/java/com/funchal/application/UseCase.java,e/0/e00c41abd4513e407eae4d3d67c6aee56e51c3f3
-r
-Bapplication/src/test/java/com/funchal/application/UseCaseTest.java,c/b/cbcbd3b44f2d1e22368ca2bb88d04d0fdf3f3df9
 u
 Einfrastructure/src/test/java/com/funchal/infrastructure/MainTest.java,c/c/cc6b8a3b97bc9e018c49371f5bf3aa66662cfbd7
 h
@@ -47,20 +43,10 @@ p
 Pdomain/src/main/java/com/funchal/validation/handler/ThrowsValidationHandler.java,4/c/4ce2bd142d34967d82f77c5f5e5c043a7361e46b
 f
 6domain/src/main/java/com/funchal/validation/Error.java,6/3/63c60a552293ffa5883ed2ca889f70a4bfebc499
-t
-Ddomain/src/main/java/com/funchal/domain/category/CatalogGateway.java,2/6/26bb0c2459f5f654fb97b0f852d023521bd92746
-g
-7domain/src/main/java/com/funchal/domain/Pagination.java,2/5/251cad31760d07d90035598a6b05f5a50be148d1
 r
 Bdomain/src/main/java/com/funchal/domain/pagination/Pagination.java,6/c/6ca09fad59f6c5b02e5012bf6e0c4cf13eca51bf
 s
 Cdomain/src/main/java/com/funchal/domain/pagination/SearchQuery.java,b/f/bf989edda14c0b1ec6e0e6180733dc0fd35eb221
-…
-Uapplication/src/main/java/com/funchal/application/category/CreateGategoryCommand.java,3/b/3bbc03f4be4fcc4bfb1e02054e55ff9fb30559fd
-…
-Uapplication/src/main/java/com/funchal/application/category/CreateCategoryCommand.java,8/3/83017e4b011aa554e956d8419d73fa259e8e636b
-„
-Tapplication/src/main/java/com/funchal/application/category/CreateCategoryOutput.java,4/3/436bc832d09a10f56380fbcb303a286b898a3737
 Œ
 \application/src/main/java/com/funchal/application/category/create/CreateCategoryCommand.java,4/3/43caa403d396902e4fedd5f5c4422d667ec08d32
 ‹
@@ -78,3 +64,7 @@ Bdomain/src/test/java/com/funchal/domain/category/CategoryTest.java,4/a/4a5607f
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+u
+Edomain/src/main/java/com/funchal/domain/category/CategoryGateway.java,3/9/39eb90278381a00a55247fdf2514ea6260a42bf2
+u
+Edomain/src/main/java/com/funchal/validation/handler/Notification.java,f/b/fbe1cb87d6483cad348184efe873a38432e8cbf3

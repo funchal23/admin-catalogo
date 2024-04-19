@@ -1,3 +1,11 @@
 
 w
-java:S5976 "6Replace these 4 tests with a single Parameterized one.(¯­õ’ùÿÿÿÿJ$5a6a36e6-7a1e-4540-98bf-b2ff42ab962e
+java:S5976 "6Replace these 4 tests with a single Parameterized one.(¯­õ’ùÿÿÿÿJ$3cd0347d-1def-4e5a-963c-93688118d7d5
+ª
+java:S5778*"bRefactor the code of the lambda to have only one invocation possibly throwing a runtime exception.(’üÓüÿÿÿÿ8½Ç‰Œî1J$5f79eed6-1952-4fe9-ba92-8e6c00674c85
+ª
+java:S5778<"bRefactor the code of the lambda to have only one invocation possibly throwing a runtime exception.(’üÓüÿÿÿÿ8ÔÇ‰Œî1J$83ec8a88-d1ce-4674-9a81-1f0f60fa1d18
+ª
+java:S5778N"bRefactor the code of the lambda to have only one invocation possibly throwing a runtime exception.(’üÓüÿÿÿÿ8íÇ‰Œî1J$93b61c59-656f-48e6-8e06-d08237c7c537
+ª
+java:S5778a"bRefactor the code of the lambda to have only one invocation possibly throwing a runtime exception.(’üÓüÿÿÿÿ8şÇ‰Œî1J$f19e0f86-079c-47bf-812c-f53ba865cfff

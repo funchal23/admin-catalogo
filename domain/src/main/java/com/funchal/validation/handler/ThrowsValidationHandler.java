@@ -8,7 +8,6 @@ import java.util.List;
 
 public class ThrowsValidationHandler implements ValidationHandler {
 
-
     @Override
     public ValidationHandler append(final Error error) {
         throw DomainException.with(List.of(error));
@@ -26,7 +25,6 @@ public class ThrowsValidationHandler implements ValidationHandler {
         } catch (final Exception ex) {
             throw DomainException.with(List.of(new Error(ex.getMessage())));
         }
-
         return this;
     }
 
