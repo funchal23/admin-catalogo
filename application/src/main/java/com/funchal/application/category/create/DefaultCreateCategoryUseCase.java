@@ -19,12 +19,9 @@ public class DefaultCreateCategoryUseCase extends CreateCategoryUseCase {
         final var name = categoryCommand.name();
         final var description = categoryCommand.description();
         final var isActive = categoryCommand.isActive();
-
         final var category = Category.newCategory(name, description, isActive);
-
         final var notification = Notification.create();
         category.validate(notification);
-
         return notification.hasError() ? API.Left(notification) : create(category);
     }
 

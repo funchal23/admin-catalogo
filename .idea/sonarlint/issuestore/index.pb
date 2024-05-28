@@ -68,3 +68,17 @@ u
 Edomain/src/main/java/com/funchal/domain/category/CategoryGateway.java,3/9/39eb90278381a00a55247fdf2514ea6260a42bf2
 u
 Edomain/src/main/java/com/funchal/validation/handler/Notification.java,f/b/fbe1cb87d6483cad348184efe873a38432e8cbf3
+ê
+`application/src/test/java/com/funchal/application/category/update/UpdateCategoryUseCaseTest.java,a/4/a49c6b908246d8cb5f027ee1195f96e08b2b221c
+ì
+capplication/src/main/java/com/funchal/application/category/update/DefaultUpdateCategoryUseCase.java,e/7/e78e4313bda0e7175234155616edd8fc6a782792
+å
+\application/src/main/java/com/funchal/application/category/update/UpdateCategoryCommand.java,3/8/3841c534cd81876f539c6718e5bb8ce2bf93d6d8
+ã
+[application/src/main/java/com/funchal/application/category/update/UpdateCategoryOutput.java,f/8/f8df1866a8b67a61c4b582ffb63417a44d018340
+å
+\application/src/main/java/com/funchal/application/category/update/UpdateCategoryUseCase.java,1/2/12482e4f82b41a04f3de380a497e97bf70066f25
+r
+Bdomain/src/main/java/com/funchal/exceptions/NotFoundException.java,8/b/8bd77b59663320c20fdd5c940212ac614cf69a7c
+j
+:domain/src/main/java/com/funchal/exceptions/Exception.java,7/7/77d5fb157a38b86a5972c1b4654ecf823af4efbd
